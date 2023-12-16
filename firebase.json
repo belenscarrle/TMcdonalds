@@ -1,0 +1,28 @@
+{
+  "emulators": {
+    "database": {
+      "port": 9001
+    },
+    "ui": {
+      "enabled": true,
+      "port": 5001
+    },
+    "functions": {
+      "port": 5002
+    },
+    "hosting": {
+      "port": 5003
+    },
+    "singleProjectMode": true
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/INICIO.html"
+      }
+    ]
+  }
+}
