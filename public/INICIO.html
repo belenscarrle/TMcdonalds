@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="firebase-config.js"></script>
+
+  <!--  GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #ffcc00;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .mensaje {
+      font-size: 60px;
+      font-family: 'Noto Sans', sans-serif; /* Cambio de fuente a Noto Sans con peso 700 */
+      color: white;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 55%;
+      margin-top: 20px;
+    }
+
+    .boton-pedir {
+      background-color: #ff0000;
+      color: white;
+      padding: 15px 140px;
+      border: none;
+      border-radius: 20px;
+      font-size: 40px;
+      font-family: 'Noto Sans', sans-serif; /* Cambio de fuente a Noto Sans con peso 700 para el botón */
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mensaje">
+    ¡Realiza tu pedido!
+  </div>
+  <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/tmcdonald-s.appspot.com/o/McDonalds-logo.png?alt=media&token=62ffea67-75c1-4352-8836-fd24be79bd64" alt="Logo de la empresa">
+  <a class="boton-pedir" href="MENÚ copy.html">PEDIR</a>
+</body>
+
+</html>

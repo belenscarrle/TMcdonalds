@@ -1,0 +1,38 @@
+body {
+  background-color: #ffcc00;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mensaje {
+  font-size: 60px;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  width: 55%; /* Ancho del logo ajustado */
+  margin-top: 20px;
+}
+
+.boton-pedir {
+  background-color: #ff0000;
+  color: white;
+  padding: 15px 0; 
+  border: none;
+  border-radius: 20px;
+  font-size: 4vw; /* Tamaño de la fuente ajustado */
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 60%; /* Ancho del botón ajustado al 60% del contenedor */
+  max-width: 400px; /* Establecemos un ancho máximo para el botón */
+  margin-top: 60px;
+}
+
